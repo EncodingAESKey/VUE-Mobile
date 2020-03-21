@@ -7,13 +7,15 @@ import 'vant/lib/index.css';
 import 'lib-flexible';
 import VueRouter from "vue-router";
 import router from './router'
-Vue.use(VueRouter);
-Vue.use(Vant);
+import './assets/reset.css';
+
+Vue.use (VueRouter);
+Vue.use (Vant);
 Vue.config.productionTip = false;
 
-new Vue({
+new Vue ({
     el: '#app',
     router,
-    components: { App },
+    components: {App},
     template: '<App/>'
-})
+});

@@ -1,8 +1,6 @@
 <template>
     <div class="hello">
-        <van-dropdown-menu>
-            <van-dropdown-item v-model="value1" :options="option1"/>
-        </van-dropdown-menu>
+        hello
     </div>
 </template>
 
@@ -26,5 +24,8 @@
 <style scoped>
     h1, h2 {
         font-weight: normal;
+    }
+    .hello{
+        font-size: .3rem;
     }
 </style>
