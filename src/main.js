@@ -4,7 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import Vant from 'vant';
 import 'vant/lib/index.css';
-import 'lib-flexible';
 import VueRouter from "vue-router";
 import router from './router'
 import './assets/reset.css';
